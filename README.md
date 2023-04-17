@@ -1,13 +1,6 @@
 # Abstract Neural Network Design Repository
 
 This repository is a collection of abstract neural network designs, which can be used as starting points for building more complex models. The neural network designs presented in this repository are not meant to be used as-is, but rather as inspiration for developing more complex models that can be used for a wide range of applications.
-Table of Contents
-
-    Background
-    Getting Started
-    Usage
-    Contributing
-    License
 
 ## Background
 
