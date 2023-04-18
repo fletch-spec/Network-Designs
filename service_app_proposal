@@ -1,0 +1,420 @@
+Project Development Plan:
+AVP_Service_App
+Table of Contents
+1. Description .........................................................................................................................3
+2. Objectives...........................................................................................................................3
+3. Deliverables........................................................................................................................4
+4. Project Risks.......................................................................................................................5
+5. Scope: .................................................................................................................................7
+5.1. Requirements: .............................................................................................................8
+5.2. Non-Functional Requirements: ...................................................................................8
+5.3. Priorities: .....................................................................................................................9
+5.5. Assumptions:.............................................................................................................10
+6. Project Tasks.....................................................................................................................11
+6.1. Task 1.........................................................................................................................11
+6.2. Task 2.........................................................................................................................11
+6.3. Task 3.........................................................................................................................11
+6.4. Task 4.........................................................................................................................12
+6.5. Task 5.........................................................................................................................12
+7. Timeline............................................................................................................................13
+7.1. Milestone 1................................................................................................................13
+7.2. Milestone 2................................................................................................................13
+7.3. Milestone 3................................................................................................................13
+8. Budget ..............................................................................................................................14
+9. Risk Management ............................................................................................................15
+9.1. Technical Risks...........................................................................................................15
+9.2. User Adoption Risks ..................................................................................................15
+9.3. Budget and Schedule Risks........................................................................................15
+10. Resources......................................................................................................................17
+10.1. Personnel:..............................................................................................................17
+10.2. Tools...........................................................................................................................17
+10.2.1. Development Environment................................................................................17
+10.2.2. Testing Tools.......................................................................................................17
+10.3. Infrastructure:........................................................................................................17
+10.3.1. Hardware............................................................................................................17
+10.3.2. Software:............................................................................................................18
+10.3.3. Network: ............................................................................................................18
+11. Communication ............................................................................................................19
+11.1. Communication Plan: ............................................................................................19
+11.1.1. Stakeholders:......................................................................................................19
+11.1.2. Frequency: .........................................................................................................19
+11.1.3. Channels:............................................................................................................19
+11.2. Project Status Reports: ..........................................................................................19
+11.2.1. Format:...............................................................................................................19
+11.2.2. Frequency: .........................................................................................................20
+11.2.3. Distribution: .......................................................................................................20
+1. Description:
+The app's purpose is to provide a range of functionalities to attendees and allow them to 
+engage with the meeting material, contact hotel staff, and manage audio-visual equipment, 
+lighting, and other meeting amenities. The app should also enable remote management and 
+integrate with hotel systems for seamless operation. The current app is outdated and lacks the 
+features and capabilities required for modern meetings. To achieve the objectives, the app will 
+be designed and developed to meet the specific requirements of the hotel and its attendees. 
+The app will feature a modern and user-friendly interface, allowing attendees to quickly access 
+the functionalities they require. The app will be tested and optimized for reliability, 
+performance, and security, ensuring a high-quality and seamless experience for attendees and 
+Audio-visual technicians.
+2. Objectives:
+1. To create an iPad app that provides attendees with a range of functionalities to engage 
+with the meeting material and manage audio-visual equipment, lighting, and other 
+meeting amenities.
+2. To ensure the app provides clients with the autonomy to control and manage the meeting 
+environment and amenities.
+3. To provide a flexible and adaptable system that can integrate with hotel systems and 
+third-party services.
+4. To prioritize data security, audio and visual fidelity, channel speeds, packet simplicity, and 
+data analysis.
+5. To enable audience engagement and participation through features such as polls, 
+brainstorming sessions, and note-taking tools.
+6. To provide attendees with the ability to view the meeting room calendar and request 
+support from Audio-visual technicians.
+7. To provide Audio-visual technicians with a platform to chat with attendees and remotely 
+manage the app and meeting room equipment.
+3. Deliverables:
+1. Project Plan, including timelines, budgets, and risk management plans.
+2. Functional Requirements Specification, detailing the app's functionalities and features.
+3. Non-Functional Requirements Specification, detailing the app's performance, security, and 
+usability requirements.
+4. User Interface (UI) Design and Mock-ups, showing how the app will look and function for 
+users.
+5. App Development, including coding, testing, and optimization.
+6. App Deployment and Installation, including installation and configuration of the app on 
+each iPad in the hotel meeting rooms.
+7. User Manual and Training Materials, to help attendees and Audiovisual technicians 
+understand how to use the app effectively.
+8. Maintenance and Support Documentation, outlining ongoing maintenance and support 
+requirements for the app.
+9. Testing and Quality Assurance Reports, documenting the testing and quality assurance 
+process for the app.
+10. Post-Implementation Review Report, documenting the overall success of the app 
+implementation and providing recommendations for future improvements.
+• Project Timeline Estimate: 14-16 weeks
+• Project Budget: X
+4. Project Risks: 
+4.1. Technical Risks:
+1. The app may not be compatible with all the different types of iPad devices currently in use 
+in the hotel meeting rooms.
+2. The app may not function correctly with the different types of audiovisual equipment and 
+other amenities available in the hotel meeting rooms.
+3. Technical issues with the app may cause disruptions during meetings, leading to negative 
+feedback from attendees.
+4.2. Budget and Schedule Risks:
+1. Unexpected expenses may arise during the app development process, leading to budget 
+overruns.
+2. Delays in app development and testing may occur, causing the project timeline to slip.
+3. Staffing issues or unforeseen events may cause delays or require additional resources, 
+leading to budget overruns and schedule delays.
+4.3. Security Risks:
+1. The app may be vulnerable to hacking or other security breaches, leading to sensitive 
+data being compromised or stolen.
+2. The app may collect sensitive information from attendees, which must be stored and 
+transmitted securely to avoid data breaches.
+4.4. User Adoption Risks:
+1. Attendees may be resistant to using the new app, preferring to use other tools or 
+technologies.
+2. Attendees may require additional training and support to use the app effectively, leading 
+to delays and additional costs.
+4.5. Integration Risks:
+1. The app may not integrate seamlessly with existing hotel systems, causing disruptions and 
+inefficiencies.
+2. Third-party integrations may not function correctly or cause compatibility issues, leading 
+to technical issues and delays.
+4.6. Legal and Compliance Risks:
+1. The app may not comply with relevant data privacy and security laws, leading to legal 
+issues and reputational damage.
+2. The app may not comply with accessibility standards, leading to discrimination lawsuits 
+and negative publicity.
+To mitigate these risks, the project team should:
+• Conduct extensive testing and quality assurance to ensure compatibility and reliability.
+• Develop a detailed project plan with contingency plans for budget and schedule risks.
+• Engage a qualified security expert to assess and manage security risks.
+• Conduct thorough user testing and provide comprehensive training and support to 
+ensure user adoption.
+• Work closely with hotel IT staff to ensure seamless integration with existing systems.
+• Consult with legal experts to ensure compliance with relevant laws and standards.
+5. Scope: 
+The AVP_Service_App project aims to design and develop a single solution Flutter application 
+that is supported on both web and iOS platforms. The application will enable meeting 
+attendees to manage audio-visual equipment, lighting, and other meeting amenities, as well 
+as integrate with hotel systems and third-party services for efficient and flexible operations.
+The scope of the project includes the following:
+• Design and development of a modern and user-friendly interface for attendees, with 
+interface flexibility to input and route custom network packets.
+• Integration of the app with hotel systems and third-party services to ensure seamless 
+operation.
+• Implementation of features to enhance audience engagement, such as polls, 
+brainstorming sessions, and note-taking tools.
+• Provision of support tools for attendees, such as the ability to view meeting room 
+calendars and request assistance from audio-visual technicians.
+• Development of a platform for audio-visual technicians to chat with attendees and 
+remotely manage the app and meeting room equipment.
+• Creation of project deliverables, including project plans, functional and non-functional 
+requirements specifications, user interface designs, app development, deployment, 
+and installation, user manuals, and training materials.
+• Provision of maintenance and support documentation, outlining ongoing 
+requirements for the app.
+• Conducting testing and quality assurance to ensure app reliability, performance, and 
+security.
+• Completion of a post-implementation review report, documenting the success of the 
+app implementation and providing recommendations for future improvements.
+The project team will work to mitigate risks associated with technical issues, budget and 
+schedule overruns, security breaches, user adoption, integration challenges, and legal and 
+compliance concerns. This will be achieved through extensive testing, quality assurance, 
+detailed project planning, engaging security experts, conducting user testing and training, 
+collaborating with hotel IT staff, and consulting with legal experts to ensure compliance with 
+relevant laws and standards.
+5.1. Requirements:
+1. Ability for attendees to adjust audio levels during meetings.
+2. Ability for attendees to operate projectors and screens during meetings.
+3. Ability for attendees to adjust lighting levels during meetings.
+4. Ability for attendees to play background music during meetings.
+5. Ability for attendees to contact hotel staff for assistance during meetings.
+6. Ability for attendees to view the meeting room calendar and reserve rooms.
+7. Ability for attendees to create and conduct polls during meetings.
+8. Ability for attendees to create and manage brainstorming sessions.
+9. Ability for attendees to take meeting notes and export them as needed.
+10. Ability for attendees to request assistance from Audiovisual technicians.
+11. Ability for Audiovisual technicians to chat with attendees and remotely manage the app 
+and meeting room equipment.
+12. Ability to input and route custom network packets for interface flexibility.
+5.2. Non-Functional Requirements:
+1. The app should prioritize data security to prevent unauthorized access to attendee data.
+2. The app should ensure high-quality audio and visual fidelity for the best attendee 
+experience.
+3. The app should provide fast channel speeds for real-time data transfer.
+4. The app should use packet simplicity to reduce packet loss and improve network 
+performance.
+5. The app should enable data analysis to provide insights into attendee engagement and 
+participation.
+6. The app should be easily scalable and adaptable to meet future hotel and attendee needs.
+7. The app should be easy to use and provide a positive user experience for attendees and 
+Audiovisual technicians.
+8. The app should comply with relevant data privacy and security laws to protect attendee 
+data.
+9. The app should comply with accessibility standards to ensure all attendees can use the 
+app effectively.
+5.3. Priorities:
+1. The app's functional requirements should be the highest priority to ensure that attendees 
+have a smooth and efficient experience during meetings.
+2. The non-functional requirements should also be prioritized to ensure that the app is 
+secure, reliable, and compliant with relevant laws and standards.
+3. The user experience should be a secondary priority, as this can impact attendee adoption 
+and satisfaction.
+5.4. Constraints:
+1. Limited Resources: As a solo developer project, the availability of resources is limited, 
+including time, budget, and personnel. This constraint means that the project's scope 
+must be focused and manageable to be completed effectively and efficiently.
+2. Limited Experience: The solo developer may have limited experience in developing similar 
+projects or working in the hotel industry. Therefore, the developer must rely on external 
+assistance, such as the hotel IT staff, to ensure the project's success.
+3. Compatibility Issues: The app must be compatible with a wide range of iPad devices and 
+audiovisual equipment currently in use in the hotel meeting rooms. This constraint may 
+require additional testing and optimization to ensure compatibility.
+4. Security Requirements: The app must prioritize data security to prevent unauthorized 
+access to attendee data. The solo developer must ensure that the app complies with 
+relevant data privacy and security laws and standards.
+5. Integration Challenges: The app must integrate seamlessly with the hotel's existing 
+systems and third-party services. This constraint may require additional collaboration with 
+hotel IT staff and third-party service providers to ensure seamless integration.
+6. Time Constraints: The project timeline is limited by the availability of resources and the 
+specific requirements of the hotel and its attendees. The solo developer must ensure that 
+the project is completed within the allotted time frame.
+7. Quality Control: As a solo developer project, the quality control process may be 
+challenging, and the developer must ensure that the app meets the required quality 
+standards.
+8. Technical Challenges: The project may encounter technical challenges during the 
+development process, such as software bugs or hardware malfunctions. The solo 
+developer must have the necessary skills and resources to overcome these challenges 
+effectively.
+5.5. Assumptions: 
+1. The hotel will provide the necessary resources, including iPads and audiovisual 
+equipment, for the app to function correctly.
+2. The hotel IT staff will be available to provide support and assistance during the app 
+development process and after the app's installation.
+3. Attendees will be willing and able to use the app during meetings.
+4. Third-party services and integrations will function correctly and will not cause 
+compatibility issues or technical problems.
+5. The solo developer will have access to the necessary development tools and software to 
+complete the project successfully.
+6. The project budget will be sufficient to cover all project costs, including development, 
+testing, deployment, and maintenance.
+7. The project timeline will be achievable and will not require significant changes due to 
+unforeseen circumstances or technical challenges.
+8. The app's functionality will meet the specific requirements of the hotel and its attendees.
+9. The app's security features will comply with relevant data privacy and security laws and 
+standards.
+10. The app's performance and usability will meet or exceed the required quality standards.
+6. Project Tasks 
+6.1. Task 1: Project Planning and Requirements Gathering 
+Description: In this task, the solo developer will work with hotel stakeholders to gather 
+requirements, plan the project, and create a detailed project plan.
+Deliverables: Project Plan, Functional and Non-Functional Requirements Specification, User 
+Interface Design, and Mock-Ups.
+Timeline Estimate: 2 weeks
+Resources: Solo Developer, Hotel Stakeholders
+6.2. Task 2: App Development 
+Description: In this task, the solo developer will develop, and code the app's functionalities 
+based on the project requirements and specifications.
+Deliverables: App Development, App Testing, and Optimization.
+Timeline Estimate: 10 weeks
+Resources: Solo Developer, iPad Devices, Audiovisual Equipment.
+6.3. Task 3: App Deployment and Installation 
+Description: In this task, the solo developer will install and configure the app on each iPad 
+device in the hotel meeting rooms, ensuring seamless operation.
+Deliverables: App Deployment, App Installation, and Configuration.
+Timeline Estimate: 2 weeks
+Resources: Solo Developer, Hotel IT Staff
+6.4. Task 4: User Manual and Training Materials 
+Description: In this task, the solo developer will create user manuals and training materials to 
+help attendees and Audiovisual technicians understand how to use the app effectively.
+Deliverables: User Manual, Training Materials.
+Timeline Estimate: 1 week
+Resources: Solo Developer.
+6.5. Task 5: Testing and Quality Assurance 
+Description: In this task, the solo developer will conduct extensive testing and quality 
+assurance to ensure the app's reliability, performance, and security.
+Deliverables: Testing and Quality Assurance Reports, Bug Fixes and Optimization.
+Timeline Estimate: 3 weeks
+Resources: Solo Developer, Hotel IT Staff.
+Note: The timeline estimates are approximate and may vary depending on the specific project 
+requirements and challenges encountered during the project.
+7. Timeline 
+7.1. Milestone 1: Project Planning and Requirements Gathering 
+Description: This milestone involves gathering requirements, planning the project, and 
+creating a detailed project plan.
+Length: 2 weeks
+Deliverables: Project Plan, Functional and Non-Functional Requirements Specification, User 
+Interface Design, and Mock-Ups.
+7.2. Milestone 2: App Development and Deployment 
+Description: This milestone involves the development and deployment of the 
+AVP_Service_App, including coding, testing, optimization, deployment, and installation.
+Length: 12 weeks
+Deliverables: App Development, App Testing, App Deployment, App Installation, and 
+Configuration.
+7.3. Milestone 3: Testing, Quality Assurance, and User Training 
+Description: This milestone involves testing and quality assurance, creating user manuals and 
+training materials, and providing ongoing maintenance and support.
+Length: 4 weeks
+Deliverables: Testing and Quality Assurance Reports, User Manual, Training Materials, 
+Maintenance and Support Documentation.
+Note: The timeline estimates are approximate and may vary depending on the specific project 
+requirements and challenges encountered during the project.
+8. Budget 
+• Expenses:
+o Item 1:
+o Item 2:
+o Item 3:
+• Income:
+o Item 1:
+o Item 2:
+o Item 3:
+9. Risk Management 
+9.1. Technical Risks 
+Description: Technical risks refer to potential issues related to the development and 
+implementation of the AVP_Service_App, including compatibility issues, technical disruptions, 
+and equipment failures. 
+Likelihood: Medium 
+Impact: High 
+Mitigation: Conduct extensive testing and quality assurance to ensure compatibility and 
+reliability. Develop a detailed project plan with contingency plans for technical risks. Engage a 
+qualified security expert to assess and manage security risks.
+9.2. User Adoption Risks 
+Description: User adoption risks refer to potential issues related to attendees' willingness and 
+ability to use the AVP_Service_App effectively. 
+Likelihood: Medium 
+Impact: Medium 
+Mitigation: Conduct thorough user testing and provide comprehensive training and support 
+to ensure user adoption. Work closely with hotel IT staff to ensure seamless integration with 
+existing systems.
+9.3. Budget and Schedule Risks 
+Description: Budget and schedule risks refer to potential issues related to budget overruns 
+and project timeline slippages. 
+Likelihood: High 
+Impact: Medium 
+Mitigation: Develop a detailed project plan with contingency plans for budget and schedule 
+risks. Conduct regular budget and schedule reviews to identify and address issues proactively. 
+Work with stakeholders to adjust project timelines and budgets as necessary to avoid 
+significant delays or cost overruns.
+Note: These risk categories and associated likelihoods, impacts, and mitigations are estimates 
+and may vary depending on the specific project requirements and challenges encountered 
+during the project. It is essential to conduct regular risk assessments throughout the project 
+to identify and address potential risks proactively.
+10. Resources 
+10.1. Personnel:
+Project Manager: Dave
+Developer: Fletcher 
+10.2. Tools: 
+10.2.1. Development Environment: Visual Studio Code
+10.2.2. Testing Tools: 
+Flutter Driver: A tool for functional testing of Flutter apps, which runs on the actual app 
+running on a device or emulator.
+Mockito: A mocking framework for writing unit tests in Dart.
+Flutter Test: A tool for writing and running unit and widget tests for Flutter apps.
+Integration Test: A tool for writing and running integration tests that test the entire app, 
+including its interactions with other services and dependencies.
+Flutter Widget Test: A tool for writing and running widget tests that test individual widgets 
+and their interactions with the rest of the app.
+Golden Test: A tool for visually testing widget rendering output and ensuring that it remains 
+consistent across changes.
+Flutter Analyzer: A tool for analysing code for potential errors and issues.
+10.3. Infrastructure:
+10.3.1. Hardware: 
+Computer: A high-performance computer is required for efficient app development. Ideally, 
+the computer should have a fast processor, high RAM, and a dedicated graphics card for 
+smooth running of the emulator and the app.
+iPad devices: The developer will need access to one or more iPad devices to test the app and 
+ensure compatibility.
+10.3.2. Software:
+Flutter SDK: The primary software needed for developing the Flutter app.
+Integrated Development Environment (IDE): A developer will need an IDE, such as Android 
+Studio or Visual Studio Code, to write, test and debug the code.
+Version Control System (VCS): A VCS such as Git, GitHub or Bitbucket is essential to manage 
+changes and version control of the source code.
+Testing tools: As discussed previously, several testing tools are available for Flutter app testing.
+10.3.3. Network:
+Local Development Environment: A local development environment should be set up, 
+including a high-speed internet connection, to ensure a smooth workflow and fast transfer of 
+code and files.
+API Integrations: The AVP_Service_App project involves integrating with third-party services 
+and hotel systems. Therefore, reliable network infrastructure is required to ensure seamless 
+integration and communication with these systems.
+Cloud Hosting: The app may be hosted on the cloud, such as AWS, Azure or Google Cloud, to 
+ensure scalability and reliability. Therefore, a reliable network infrastructure and a fast 
+internet connection are essential to ensure efficient data transmission.
+Note: The specific hardware, software, and network infrastructure required for a 
+development project of this nature may vary depending on the project's specific 
+requirements and challenges. However, the above list provides a general overview of the 
+typical infrastructure used in a Flutter app development project.
+11. Communication 
+11.1. Communication Plan: 
+11.1.1. Stakeholders:
+Project Manager: Responsible for managing the project and overseeing the development 
+process.
+Hotel IT staff: Responsible for ensuring that the app integrates seamlessly with existing hotel 
+systems.
+Audio-visual technicians: Responsible for managing the app and meeting room equipment 
+during meetings.
+Attendees: Will use the app during meetings to engage with the meeting material and 
+manage audio-visual equipment, lighting, and other meeting amenities.
+11.1.2. Frequency:
+Regular updates will be provided to stakeholders throughout the project, with more frequent 
+updates during critical phases of development.
+11.1.3. Channels:
+Email: The primary communication channel for the project, with stakeholders receiving 
+regular email updates on the project status and progress.
+Project Management Tools: The project manager will use project management tools such as 
+Asana or Trello to update stakeholders on the project status and progress.
+11.2. Project Status Reports: 
+11.2.1. Format:
+The project status reports will be in a standard format that includes the following information:
+• Overview of project progress and milestones achieved.
+• Analysis of risks and issues encountered.
+• Summary of resources used, and budget expended.
+• Planned activities for the next reporting period.
+• Summary of user feedback and areas for improvement
+11.2.2. Frequency:
+The project status reports will be distributed on a bi-weekly basis, with more frequent reports 
+during critical phases of development.
+11.2.3. Distribution:
+The project status reports will be distributed to all stakeholders via email and project 
+management tools such as Asana or Trello.
